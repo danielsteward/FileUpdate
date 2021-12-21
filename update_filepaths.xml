@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+  	<entry key="pathname_in">D:\\PED\\in</entry>
+	<entry key="pathname_processing">D:\\PED\\processing</entry>
+	<entry key="pathname_archive">D:\\PED\\out</entry>
+
+</properties>

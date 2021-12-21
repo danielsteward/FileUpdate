@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+  	<entry key="gui_reports_destination">D:\\PED\\guiReports</entry>
+	<entry key="update_file_reports_destination">D:\\PED\\ufReports</entry>
+
+</properties>
+
+
