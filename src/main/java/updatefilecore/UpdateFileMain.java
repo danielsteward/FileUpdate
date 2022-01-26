@@ -6,6 +6,7 @@
 package updatefilecore;
 
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -18,14 +19,17 @@ public class UpdateFileMain {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        try {
-            UpdateFilePathFeed f = new UpdateFilePathFeed();//inits this class as it has xml properties files to read.
-        } catch (IOException ex) {
-            Logger.getLogger(UpdateFileMain.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        UpdateFilePoll polly = new UpdateFilePoll();
-        polly.moveNewUpdateFiles(); 
+    public static void main(String[] args) throws IOException, InterruptedException {
+        Path p = PathSupplier.PATHNAMESINSTANCE.getDirIn();
+        
+        System.out.println(p.toString());
+        
+        Polling po = Polling.POLLINGOB;
+        
+        po.pollTest();
+
+        
+
     }
     
 }

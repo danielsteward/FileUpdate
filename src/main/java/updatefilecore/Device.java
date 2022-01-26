@@ -5,16 +5,10 @@
  */
 package updatefilecore;
 
-//import java.util.ArrayList;
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  *
  * @author danst
  */
-public class UpdateFileObject {
-    
-    
+public class Device {
     
 }
